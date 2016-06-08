@@ -3,7 +3,7 @@
 // Pieter Maene <pieter@maene.eu>
 //
 
-#include "Speck.h"
+#include "speck.h"
 
 #define ROTL(x, n) ((x << n) | (x >> (32-n)))
 #define ROTR(x, n) ((x >> n) | (x << (32-n)))
