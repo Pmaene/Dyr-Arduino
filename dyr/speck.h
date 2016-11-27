@@ -14,8 +14,8 @@ class Speck {
     void enc(unsigned long *ciphertext, unsigned long *plaintext);
 
   private:
-    unsigned long keys[26];
-    unsigned long ls[26];
+    unsigned long keys[27];
+    unsigned long ls[29];
 
     void expandKey();
 };
